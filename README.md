@@ -1,5 +1,3 @@
-Sim. Para o **README.md**, copie **exatamente o conteúdo abaixo**. Ele está inteiro dentro de um único bloco de código, sem quebrar no meio:
-
 # 🌸 Jardim de Lótus
 
 Sistema web desenvolvido para uma floricultura, permitindo o gerenciamento de flores, clientes e pedidos.
