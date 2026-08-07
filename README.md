@@ -110,7 +110,8 @@ O projeto foi desenvolvido com o objetivo de aplicar conhecimentos de **desenvol
 
 ## 👩‍💻 Desenvolvedores
 
-**Gabrielly Piffer**  **Thomas Batoni**
+**Gabrielly Piffer**<br>
+**Thomas Batoni**
 
 ---
 
