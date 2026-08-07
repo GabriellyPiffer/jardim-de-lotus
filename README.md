@@ -118,4 +118,3 @@ O projeto foi desenvolvido com o objetivo de aplicar conhecimentos de **desenvol
 ---
 
 🌸 **Jardim de Lótus** — Flores que transformam momentos em memórias. 🌷
-```
