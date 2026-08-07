@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardim de Lótus</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="./assets/logoLotus.png" alt="Logo Jardim de Lótus" class="logo-flores">
+    <h1>Jardim de Lótus</h1>
+
+    <div>
+
+        <button onclick="window.location.href='pedidos.html'">
+            Meus Pedidos
+        </button>
+
+        <button onclick="cadastro.classList.remove('oculto')">
+            Cadastrar Flor
+        </button>
+
+    </div>
+
+</header>
+
+<main></main>
+
+
+<div id="cadastro" class="modal oculto">
+
+    <div class="janela">
+
+        <h2>Cadastrar Flor</h2>
+
+        <form id="formCad">
+
+            <label>Nome da Flor</label>
+            <input type="text" id="nome" required>
+
+            <label>Cor</label>
+            <input type="text" id="cor" required>
+
+            <label>Preço</label>
+            <input type="number" id="preco" required>
+
+            <label>Estoque</label>
+            <input type="number" id="estoque" required>
+
+            <label>URL da Imagem</label>
+            <input type="text" id="imagem">
+
+            <br><br>
+
+            <button type="reset" onclick="cadastro.classList.add('oculto')">
+                Cancelar
+            </button>
+
+            <button type="submit">
+                Salvar
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<div id="detalhes" class="modal oculto">
+
+    <div class="janela">
+
+        <h2 id="tituloFlor"></h2>
+
+        <img id="imgFlor">
+
+        <p>Nome</p>
+        <input type="text" id="nomeEdit">
+
+        <p>Cor</p>
+        <input type="text" id="corEdit">
+
+        <p>Preço</p>
+        <input type="number" id="precoEdit">
+
+        <p>Estoque</p>
+        <input type="number" id="estoqueEdit">
+
+        <p>Imagem</p>
+        <input type="text" id="imgEdit">
+
+        <br><br>
+
+        <button onclick="salvarEdicao()">
+            Salvar
+        </button>
+
+        <button onclick="excluirFlorAtual()">
+            Excluir
+        </button>
+
+        <button onclick="detalhes.classList.add('oculto')">
+            Fechar
+        </button>
+
+    </div>
+
+</div>
+
+<script src="flores.js"></script>
+
+</body>
+</html>
