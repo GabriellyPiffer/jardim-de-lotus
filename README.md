@@ -1,86 +1,119 @@
+Sim. Para o **README.md**, copie **exatamente o conteúdo abaixo**. Ele está inteiro dentro de um único bloco de código, sem quebrar no meio:
+
 # 🌸 Jardim de Lótus
 
-Bem-vindo ao **Jardim de Lótus**, uma aplicação web desenvolvida para uma floricultura.  
-O sistema permite apresentar flores, realizar cadastros e gerenciar pedidos de forma simples e organizada.
+Sistema web desenvolvido para uma floricultura, permitindo o gerenciamento de flores, clientes e pedidos.
 
----
+## 🌺 Principais Páginas
 
-## 🌷 Sobre o Projeto
+### 🔐 Login
 
-O **Jardim de Lótus** foi criado para proporcionar uma experiência agradável no gerenciamento de uma floricultura.  
-A aplicação combina uma interface delicada e moderna com um backend robusto para controle de dados.
+Área destinada ao acesso dos clientes ao sistema.
 
----
+### 🌸 Flores
 
-## ✨ Funcionalidades
+Página principal para visualização das flores disponíveis na floricultura.
 
-- 🌸 Cadastro de flores  
-- 🖼️ Exibição de imagens das flores  
-- 💰 Cadastro e visualização de preços  
-- 📦 Controle de estoque  
-- 🛒 Criação de pedidos  
-- 📋 Visualização dos pedidos realizados  
-- ✏️ Edição de pedidos  
-- 🗑️ Exclusão de pedidos  
-- 👤 Cadastro de clientes  
-- 🔐 Login de clientes  
-- 💾 Integração com banco de dados  
-- 🌷 Interface temática inspirada em uma floricultura  
+### 🌷 Cadastro de Flores
 
----
+Permite adicionar novas flores ao catálogo, incluindo informações como nome, preço, estoque e imagem.
+
+### 🛒 Pedidos
+
+Página destinada ao gerenciamento dos pedidos, permitindo visualizar, editar e excluir pedidos.
+
+### 👤 Cadastro
+
+Área destinada ao cadastro de novos clientes.
 
 ## 🛠️ Tecnologias Utilizadas
 
-**Front-end**  
-- HTML5  
-- CSS3  
-- JavaScript  
-
-**Back-end**  
-- Node.js  
-- Express  
-- Prisma ORM  
-
-**Banco de Dados**  
-- MySQL  
-
-**Ferramentas**  
-- Git  
-- GitHub  
-- Visual Studio Code  
-- Insomnia  
-
----
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Express
+- Prisma ORM
+- Banco de dados
+- Git e GitHub
 
 ## 📁 Estrutura do Projeto
 
-```text
-Jardim de Lótus/
-│
-├── backend/
-│   ├── prisma/
-│   │   ├── migrations/
-│   │   └── schema.prisma
-│   │
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── data/
-│   │   └── routes/
-│   │
-│   ├── package.json
-│   ├── prisma.config.ts
-│   └── server.js
-│
-├── frontend/
-│   ├── assets/
-│   ├── cadastro.html
-│   ├── cadastro.js
-│   ├── flores.html
-│   ├── flores.js
-│   ├── login.html
-│   ├── login.js
-│   ├── pedidos.html
-│   ├── pedidos.js
-│   └── style.css
-│
-└── .gitignore
+    jardim-de-lotus/
+    │
+    ├── backend/
+    │   ├── prisma/
+    │   │   ├── migrations/
+    │   │   └── schema.prisma
+    │   │
+    │   ├── src/
+    │   │   ├── controllers/
+    │   │   ├── data/
+    │   │   └── routes/
+    │   │
+    │   ├── .env
+    │   ├── package.json
+    │   ├── package-lock.json
+    │   ├── prisma.config.ts
+    │   └── server.js
+    │
+    └── frontend/
+        ├── assets/
+        ├── cadastro.html
+        ├── cadastro.js
+        ├── flores.html
+        ├── flores.js
+        ├── login.html
+        ├── login.js
+        ├── pedidos.html
+        ├── pedidos.js
+        └── style.css
+
+## 🚀 Como Executar o Projeto
+
+### 1. Clone o repositório
+
+    git clone https://github.com/GabriellyPiffer/jardim-de-lotus.git
+
+### 2. Entre na pasta do projeto
+
+    cd jardim-de-lotus
+
+### 3. Instale as dependências do backend
+
+    cd backend
+    npm install
+
+### 4. Configure o banco de dados
+
+Crie o arquivo `.env` dentro da pasta `backend` e configure a conexão com o banco de dados.
+
+Exemplo:
+
+    DATABASE_URL="sua_conexao_com_o_banco"
+
+### 5. Gere o Prisma Client
+
+    npx prisma generate
+
+### 6. Inicie o servidor
+
+    node server.js
+
+### 7. Abra o Front-end
+
+Abra os arquivos HTML da pasta `frontend` no navegador ou utilize o **Live Server** no Visual Studio Code.
+
+## 🌿 Objetivo
+
+O projeto foi desenvolvido com o objetivo de aplicar conhecimentos de **desenvolvimento web, JavaScript, Node.js, APIs, banco de dados e Git**, criando uma aplicação completa para uma floricultura.
+
+## 👩‍💻 Desenvolvedores
+
+**Gabrielly Piffer**  
+**Thomas Batoni**
+
+---
+
+🌸 **Jardim de Lótus** — Flores que transformam momentos em memórias. 🌷
+```
